@@ -1,0 +1,25 @@
+version: 2
+task_description: 'Teach the model about IBM SPEED'
+created_by: MoyaKB
+domain: ibm_speed
+seed_examples:
+ - question: Where is IBM SPEED located
+   answer: |
+      SPEED is a global team
+ - question: How much money can IBM SPEED give you
+   answer: |
+     Up to $100K.
+ - question: What Return on Investment do SPEED expect
+   answer: |
+     The team expect to realise 100-1000x ROI this can be over a 2 year period
+ - question: What is the profile of a SPEED project
+   answer: |
+     There must always be a client for a SPEED project, with an innovative 'big idea' to drive revenue for IBM
+ - question: What is the SPEED process
+   answer: |
+     We start with a proposal Green Sheet, then a proposal presenation to the board, decisions are made in 48 hours
+document:
+ repo: https://github.com/MoyaKB/ilab_repo.git
+ commit: b70b20e
+ patterns:
+  - speed*.md
